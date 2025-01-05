@@ -34,7 +34,8 @@ This space provides a Byte Pair Encoding (BPE) implementation for Awadhi text co
 - Gradio 3.50.2+
 
 ## Example:
-Here is an excerpt from "Hanuman Chalisa" Written in Awadhi (A dialect of Hindi). If you run this on Huggingface Spaces: https://huggingface.co/spaces/pradeep6kumar2024/awadhi_bpe
+Here is an excerpt from "Hanuman Chalisa" Written in Awadhi (A dialect of Hindi). If you run this on Huggingface [Spaces](https://huggingface.co/spaces/pradeep6kumar2024/awadhi_bpe)
+
 You would get below mentioned Answer:
 
 Input: 
