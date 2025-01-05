@@ -39,6 +39,7 @@ Here is an excerpt from "Hanuman Chalisa" Written in Awadhi (A dialect of Hindi)
 You would get below mentioned Answer:
 
 Input: 
+```
 
 ॥ चौपाई ॥ 
 जय हनुमान ज्ञान गुण सागर। 
@@ -61,9 +62,10 @@ Input:
 बिकट रूप धरि लंक जरावा ॥ 
 भीम रूप धरि असुर सँहारे | 
 
+```
 
 Output:
-
+```
 {
 "Tokens": "॥ चौ पाई ॥ जय हनुमान ज्ञा न गु ण सागर। जय कपीस तिहुँ लोक उजा गर ॥ राम दूत अतुलित बल धा मा । अंजनि पु त्र पवनसुत नामा ॥ महा बी र बि क्रम बजरंग ी | कुमति निवा र सुमति के संग ी ॥ कं चन बरन बि राज सुबे सा। कानन कु ण ् ड ल कु ं चित के सा ॥ हा थ ब ज्र अरु ध ् व जा बि राजै | का ँ धे मू ँ ज जने ऊ छा जै ॥ श ं कर स्व य ं के सरी नन् द न..." ,
 "Number of Tokens": 173 ,
@@ -71,7 +73,8 @@ Output:
 "Tokenized Size (bytes)": 346 ,
 "Compression Ratio": "3.77" ,
 "Vocabulary Size": 2849
-} 
+}
+```
 
 ## License
 
