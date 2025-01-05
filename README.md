@@ -1,6 +1,6 @@
 # Awadhi BPE Tokenizer
 
-This space provides a Byte Pair Encoding (BPE) implementation for Awadhi text compression. It features:
+This space provides a Byte Pair Encoding (BPE) implementation for Awadhi text compression. You can find the training file as bpe_Awadhi.py. The BPE is trained on "Sunder Kand" chapter of Ramayan. It features:
 
 - Custom BPE implementation for Awadhi text
 - Vocabulary size < 5000 tokens
