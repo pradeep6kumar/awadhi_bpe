@@ -1,14 +1,18 @@
----
-title: Awadhi Bpe
-emoji: 🌍
-colorFrom: pink
-colorTo: indigo
+title: Awadhi BPE Tokenizer
+emoji: 🇮🇳
+colorFrom: blue
+colorTo: red
 sdk: gradio
-sdk_version: 5.9.1
+sdk_version: 3.50.2
 app_file: app.py
 pinned: false
 license: mit
-short_description: This space provides a Byte Pair Encoding (BPE) implementatio
----
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+python_version: "3.10"
+app_port: 7860
+tags:
+    - awadhi
+    - tokenizer
+    - bpe
+    - text-compression
+datasets:
+    - sunderkand_awdhi 
