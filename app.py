@@ -1,5 +1,6 @@
 import gradio as gr
 from bpe_Awadhi import AwadhiBPE
+from examples import EXAMPLES
 import json
 import os
 
@@ -36,6 +37,10 @@ def process_text(input_text: str) -> dict:
         "Vocabulary Size": len(bpe.vocab)
     }
 
+def load_example(text: str) -> tuple:
+    """Load example text and clear previous results"""
+    return text, None
+
 # Create the Gradio interface
 def create_interface():
     with gr.Blocks(title="Awadhi BPE Tokenizer") as demo:
@@ -59,6 +64,20 @@ def create_interface():
             inputs=input_text,
             outputs=output
         )
+        
+        # Example buttons
+        with gr.Row():
+            for label, text in EXAMPLES.items():
+                # Create a closure to capture the text value
+                def make_example_handler(example_text):
+                    def handler():
+                        return example_text, None
+                    return handler
+                
+                gr.Button(label).click(
+                    fn=make_example_handler(text),
+                    outputs=[input_text, output]
+                )
         
         gr.Markdown("""
         ### About
